@@ -44,7 +44,7 @@ app.post("/register", (req, res) => {
 });
 
 // Start the server
-const PORT = 4200;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
